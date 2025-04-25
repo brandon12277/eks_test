@@ -30,11 +30,7 @@ eks:
         - name: "nginx-service"    
           file: "manifest/service1.yaml"
         - name: "dep2"      # Manifest name 
-          file: "manifest/deployment1.yaml"
-        - name: "se2"       
-          file: "manifest/service.yaml"
-        - name: "nginx-ingress"    
-          file: "manifest/ingress.yaml"
+          
     
 
        
